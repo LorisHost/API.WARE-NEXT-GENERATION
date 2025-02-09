@@ -171,42 +171,42 @@ You can configure several aspects of the script for optimized performance and un
 
 • 👾 Auto-Update Settings
 
-autoUpdate = true: Enables automatic updates to stay ahead of anti-cheat patches.
+AutoUpdate = true: Enables automatic updates to stay ahead of anti-cheat patches.
 
-autoUpdate = false: Disables updates for offline usage (useful in isolated environments).
+AutoUpdate = false: Disables updates for offline usage (useful in isolated environments).
 
 
 • 🧠 Memory Injection Settings
 
-memoryFragmentation = true: Enables dynamic memory fragmentation to hide injected code.
+MemoryFragmentation = true: Enables dynamic memory fragmentation to hide injected code.
 
-memorySize = 512MB: Defines the size of the memory allocated for bypass code.
+MemorySize = 512MB: Defines the size of the memory allocated for bypass code.
 
 
 • 🔒 Network Spoofing
 
-packetEncryption = true: Ensures all data packets are encrypted before being sent to the server.
+EncryptionPackets = true: Ensures all data packets are encrypted before being sent to the server.
 
-encryptionKey = “randomstring”: Customizes the encryption key for packet encryption.
+EncryptionKey = “randomstring”: Customizes the encryption key for packet encryption.
 
 
 • 🧑‍💻 Event Hijacking Settings
 
-eventHijacking = true: Activates event hijacking to bypass speed, health, and teleportation checks.
+EventHijacking = true: Activates event hijacking to bypass speed, health, and teleportation checks.
 
-eventPriority = high: Set hijacked events to high priority for faster execution.
+EventPriority = high: Set hijacked events to high priority for faster execution.
 
 
 • 🛡️ Anti-Debugging Settings
 
-debuggerDetection = true: Automatically detects and blocks debuggers.
+DebuggerAnti-Dectection = true: Automatically detects and blocks debuggers.
 
-runtimeObfuscation = true: Randomizes runtime code to prevent reverse engineering.
+RuntimeDebugging = true: Randomizes runtime code to prevent reverse engineering.
 
 
 • 🎮 Cross-Platform Compatibility
 
-crossPlatform = true: Optimizes the script for both PC and mobile platforms.
+Cross-Platform = true: Optimizes the script for both PC and mobile platforms.
 
 
 
@@ -258,7 +258,7 @@ Injects bypass code into unused memory regions.
 
 Example:
 
-local injectedMemory = injectMemory(code, size)
+local InjectionMemory = InjectionMemory(code, size)
 
 
 • Code Obfuscation
