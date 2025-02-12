@@ -100,14 +100,45 @@ getgenv().config = { -- true or false is toggle
 
     -- Hook Functions
     HookFunctions = {
-        ["game:GetService"] = true,
-        ["game.ReplicatedStorage:FireServer"] = false,
-        ["game.ReplicatedStorage.MyRemoteEvent:FireServer"] = true, -- you can edit
-        ["game.ReplicatedStorage.MyRemoteFunction:InvokeServer"] = false, -- you can edit
-        ["game.Players.LocalPlayer.Kick"] = false, -- Prevents getting kicked
-        ["game.ReplicatedStorage:FindFirstChild"] = true, -- Helps bypass some anti-cheats
-        ["game.ReplicatedStorage.MySecureRemote:InvokeServer"] = true, -- Example
-    },
+    ["game:GetService"] = true,
+    ["game.ReplicatedStorage:FireServer"] = false,
+    ["game.ReplicatedStorage.MyRemoteEvent:FireServer"] = true,
+    ["game.ReplicatedStorage.MyRemoteFunction:InvokeServer"] = false,
+    ["game.Players.LocalPlayer.Kick"] = false,
+    ["game.ReplicatedStorage:FindFirstChild"] = true,
+    ["game.ReplicatedStorage.MySecureRemote:InvokeServer"] = true,
+    ["game.ReplicatedStorage.MyRemoteFunction:FireServer"] = true,
+    ["game.Players.LocalPlayer.CharacterAdded"] = true,
+    ["game.Players.LocalPlayer.CharacterRemoving"] = true,
+    ["game.ReplicatedStorage.MyCustomRemote:FireServer"] = true,
+    ["game:GetService('Players').PlayerAdded"] = true,
+    ["game:GetService('Players').PlayerRemoving"] = true,
+    ["game.Players.LocalPlayer.Character:BreakJoints()"] = false,
+    ["game.ReplicatedStorage.MySecurityCheck:InvokeServer"] = true,
+    ["game.Workspace.CurrentCamera"] = true,
+    ["game:GetService('RunService').RenderStepped"] = true,
+    ["game:GetService('TweenService').Create"] = true,
+    ["game:GetService('ReplicatedStorage').SetAttribute"] = true,
+    ["game:GetService('ReplicatedStorage').WaitForChild"] = true,
+    ["game:GetService('Players').LocalPlayer:SetAttribute"] = true,
+    ["game.ReplicatedStorage.RemoteEvent:FireAllClients"] = true,
+    ["game.ReplicatedStorage:SendToServer"] = false,
+    ["game.Workspace:FindFirstChild"] = true,
+    ["game:GetService('ReplicatedStorage').MyEvent:FireServer"] = true,
+    ["game:GetService('Players').LocalPlayer.PlayerAdded"] = true,
+    ["game:GetService('ReplicatedStorage').MyFunction:InvokeClient"] = true,
+    ["game.ReplicatedStorage.MyRemote:InvokeServer"] = false,
+    ["game:GetService('Players').LocalPlayer:Kick"] = false,
+    ["game.Workspace:ClearAllChildren"] = true,
+    ["game:GetService('MarketplaceService').PromptPurchase"] = false,
+    ["game:GetService('Players').LocalPlayer:LoadCharacter"] = true,
+    ["game.ReplicatedStorage.GameEvent:FireServer"] = true,
+    ["game:GetService('Players').LocalPlayer.Character.Humanoid:TakeDamage"] = false,
+    ["game:GetService('ReplicatedStorage').CustomEvent:FireServer"] = true,
+    ["game.ReplicatedStorage.MyCustomRemoteEvent:FireServer"] = true,
+    ["game:GetService('Workspace').SetNetworkOwner"] = true,
+    ["game.ReplicatedStorage.MyGameRemote:InvokeServer"] = true
+}
 
     -- Hook Metamethods
     HookMetamethods = {
