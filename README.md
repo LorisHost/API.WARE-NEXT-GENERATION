@@ -6,6 +6,7 @@ Introduction
 
 Welcome to the API.Ware Next-Generation Anti-Cheat Bypass documentation! This advanced script is packed with highly sophisticated anti-detection features and optimized for undetectability. Whether you're bypassing anti-cheats for Roblox or other games, this script ensures a smooth gaming experience while staying under the radar of even the most advanced anti-cheat systems.
 Down Below 👇 the Script 
+---
 ```lua
 --[[
        d8888 8888888b.  8888888 888       888        d8888 8888888b.  8888888888 
