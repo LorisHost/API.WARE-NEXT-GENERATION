@@ -7,7 +7,153 @@ Introduction
 Welcome to the API.Ware Next-Generation Anti-Cheat Bypass documentation! This advanced script is packed with highly sophisticated anti-detection features and optimized for undetectability. Whether you're bypassing anti-cheats for Roblox or other games, this script ensures a smooth gaming experience while staying under the radar of even the most advanced anti-cheat systems.
 Down Below 👇 the Script 
 ```lua
+--[[
+       d8888 8888888b.  8888888 888       888        d8888 8888888b.  8888888888 
+      d88888 888   Y88b   888   888   o   888       d88888 888   Y88b 888        
+     d88P888 888    888   888   888  d8b  888      d88P888 888    888 888        
+    d88P 888 888   d88P   888   888 d888b 888     d88P 888 888   d88P 8888888    
+   d88P  888 8888888P"    888   888d88888b888    d88P  888 8888888P"  888        
+  d88P   888 888          888   88888P Y88888   d88P   888 888 T88b   888        
+ d8888888888 888          888   8888P   Y8888  d8888888888 888  T88b  888        
+d88P     888 888        8888888 888P     Y888 d88P     888 888   T88b 8888888888 
+--]]                                                                                 
+--API.WARE Bypasser Doesnt have the UI only config you can setup :)
+getgenv().config = { -- true or false is toggle
+    -- Core Protection
+    AutoUpdate = true,
+    MemoryFragmentation = true,
+    PacketEncryption = true,
+    EventHijacking = true,
+    DebuggerDetection = true,
+    CrossPlatform = true,
+    SmartEvasion = true,
+    LowLatencyMode = true,
 
+    -- Advanced Security
+    SelfHide = true,
+    AutoClearMemory = true,
+    DataEncryption = true,
+    DynamicEncryptionKeys = true,
+    SelfProtect = true,
+    AntiTamper = true,
+    AutoClearCache = true,
+    IntegrityCheck = true,
+    AntiReverseEngineering = true,
+    VirtualizationProtection = true,
+    CodeObfuscation = true,
+    DynamicCodeExecution = true,
+    AntiDebuggerBypass = true,
+    AntiScriptInjection = true,
+    ScriptIntegrityMonitor = true,
+
+    -- Performance Optimization
+    PerformanceMode = "high", -- Low, Medium, High, Ultra
+    MaxMemoryUsage = 1024, -- Sometimes not fully effective
+    CpuOptimization = true,
+    GpuOptimization = true,
+    FrameRateLimit = 60,
+    LowResourceMode = true,
+    ThreadOptimization = true,
+    AutoGarbageCollection = true,
+    AdaptivePerformanceScaling = true,
+
+    -- Recovery & Fail-safes
+    AutoRecovery = true,
+    RecoveryTime = 5000,
+    AutoUpdateInterval = 120,
+    SelfHealing = true,
+    RedundantExecution = true,
+    AutoCrashRecovery = true,
+
+    -- Network Protection
+    NetworkOptimization = true,
+    CustomPacketInterval = 0.01,
+    PacketRedirection = true,
+    CustomPacketSpoofing = true,
+    SecureRemoteCalls = true,
+    ProxyServerRouting = true,
+    EncryptedTraffic = true,
+    RemoteThrottleBypass = true,
+    RemoteFunctionBypass = true,
+    RemoteEventBypass = true,
+    RemoteExecutionProtection = true,
+    RemoteLoggingBypass = true,
+    RemoteDataSanitization = true,
+
+    -- Logging & Debugging
+    DebugMode = false,
+    EnableTelemetry = true,
+    LogFile = "API.WARE_log.txt",
+    LogLevel = "verbose",
+    AutoLogClear = true,
+
+    -- Custom Event Handlers
+    CustomEventHandlers = {
+        OnSpeedChanged = function(Speed) print("Speed: " .. Speed) end,
+        OnHealthChanged = function(Health) print("Health: " .. Health) end,
+        OnTeleport = function(Position) print("Teleporting to: " .. tostring(Position)) end,
+        OnExploitDetection = function(Exploit) print("Exploit detected: " .. Exploit) end,
+        OnScriptTamper = function() print("Tampering detected!") end,
+        OnRemoteCallIntercepted = function(Remote) print("Remote intercepted: " .. tostring(Remote)) end,
+    },
+
+    -- Hook Functions
+    HookFunctions = {
+        ["game:GetService"] = true,
+        ["game.ReplicatedStorage:FireServer"] = false,
+        ["game.ReplicatedStorage.MyRemoteEvent:FireServer"] = true, -- you can edit
+        ["game.ReplicatedStorage.MyRemoteFunction:InvokeServer"] = false, -- you can edit
+        ["game.Players.LocalPlayer.Kick"] = false, -- Prevents getting kicked
+        ["game.ReplicatedStorage:FindFirstChild"] = true, -- Helps bypass some anti-cheats
+        ["game.ReplicatedStorage.MySecureRemote:InvokeServer"] = true, -- Example
+    },
+
+    -- Hook Metamethods
+    HookMetamethods = {
+        ["__index"] = true,
+        ["__newindex"] = false,
+        ["__namecall"] = true, -- Prevents detection from anti-exploit scripts
+        ["__tostring"] = true, -- Obfuscates object identity
+        ["__call"] = true, -- Bypasses direct function calls
+    },
+
+    -- Remote Function/Event Bypassing
+    RemoteBypassers = {
+        AutoRemoteBypass = true,
+        RemoteCallInterception = true,
+        RemoteSpoofing = true,
+        RemoteAntiTrace = true,
+        FakeRemoteResponses = true,
+        CustomRemoteHandling = true,
+        PreventRemoteLogging = true,
+        AutoRemoteExecution = true,
+        RemotePacketFiltering = true,
+        RemoteTamperProtection = true,
+    },
+
+    -- Memory & Execution Protection
+    MemoryScrambling = true,
+    MemoryStability = true,
+    StackManipulation = true,
+    MemoryScanBypass = true,
+    DynamicStackFrames = true,
+    VirtualThreadExecution = true,
+    
+    -- Advanced Anti-Detection
+    MultiLayerProtection = true,
+    FunctionProxying = true,
+    EventFiltering = true,
+    ActiveDetectionScan = true,
+    AutoEvadeMode = true,
+    SignatureObfuscation = true,
+    CustomBytecodeExecution = true,
+    SandboxIsolation = true,
+    AntiInjection = true,
+    AntiScriptTampering = true,
+    AntiRemoteTrace = true,
+    AutoAntiDetection = true,
+    StealthMode = true,
+}
 ```
 
 ---
