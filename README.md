@@ -448,7 +448,7 @@ Mobile Users: Use low-resolution textures to minimize the performance impact on 
 
 🧑‍💻 Troubleshooting & FAQs
 
-Q1: The script is not injecting. What should I do?
+Q1: The script is not Working. What should I do?
 
 Ensure that your executor is up-to-date and compatible with Roblox.
 
