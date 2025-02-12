@@ -1,5 +1,6 @@
 ---
- PROJECT NOT RELEASED YET
+PROJECT NOT RELEASED YET
+
 📜 API.Ware Next-Generation Anti-Cheat Bypass Documentation
 
 Introduction
